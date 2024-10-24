@@ -1,0 +1,163 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 16px 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0D6EFD;
+}
+
+#homeicon {
+    float: left;
+    background-color: #333;
+    overflow: hidden;
+    height: 50px;
+    padding: 8px;
+}
+
+.footer {
+    color: white;
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    padding-top: 56px;
+}
+
+.citem {
+    height: 580px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.txt-shadow {
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.btn-shadow {
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.card-img-top {
+    max-height: 200px;
+}
+
+.cards {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.c3 {
+    object-fit: cover;
+}
+
+.info {
+    background-color: #f3f6f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.info-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.infop {
+    padding-top: 15px;
+}
+
+.info-img {
+    max-height: 300px;
+}
+
+.cards-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.me {
+    background-color: #d8ecff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.info2 {
+    background-color: #d8ecff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.sports-img {
+    height: 580px;
+    object-fit: cover;
+}
+
+.sh1 {
+    color: #FFFFFF;
+}
+
+.right-centered {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -65%);
+}
+
+.left-centered {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-45%, -30%);
+}
+
+.card-group img {
+    background-color: #a3b8c8;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.masc-img {
+    height: auto;
+    width: 200px;
+}
